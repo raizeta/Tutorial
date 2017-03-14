@@ -1,0 +1,37 @@
+Via Laravel Phar
+1.composer global require "laravel/installer"
+
+
+1. Via Composer
+composer create-project laravel/laravel --prefer-dist
+composer install
+
+2. Rename env.example menjadi env saja.
+3. Ganti Konfigurasi Database Yang Terdapat Pada File env yang baru saja anda ganti.
+4. Jalankan Command : php artisan key:generate
+5. Coba Jalankan Aplikasi Dengan php artisan serve
+6. Jika Berhasil Maka Aplikasi Laravel Telah Berhasil Anda Install
+
+
+
+2. Maintenance Mode
+php artisan down
+
+3. After Maintenance
+php artisan up
+
+############
+laravelcollective/html: "~5.0"
+
+  'providers' => [
+    // ...
+    'Collective\Html\HtmlServiceProvider',
+    // ...
+  ],
+
+  'aliases' => [
+    // ...
+      'Form' => 'Collective\Html\FormFacade',
+      'Html' => 'Collective\Html\HtmlFacade',
+    // ...
+  ],

@@ -1,0 +1,46 @@
+$scope.Filters =
+  [
+    {
+      name:"category",
+      options:
+      [{value:'medium',count:1},{value:'small',count:1}]
+    },
+    {
+      name:"brand",
+      options:
+      [{value:'sphere',count:1},{value:'weird',count:2}]
+    }
+  ]
+
+var products = 
+[
+  {
+    name: 'apple',
+    properties: 
+    [
+      { 
+        name:'category', 
+        value:'medium' 
+      }, 
+      { 
+        name:'brand', 
+        value:'weird' 
+      }
+    ]
+  },
+
+  {
+    name: 'apple',
+    properties: 
+    [
+      { 
+        name:'category', 
+        value:'small' 
+      }, 
+      { 
+        name:'brand', 
+        value:'sphere'
+      }
+    ]
+  },   
+];

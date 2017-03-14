@@ -1,0 +1,4 @@
+git init
+git remote add origin https://github.com/raizeta/radumtaluk.git
+git fetch
+git checkout -t origin/master

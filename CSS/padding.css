@@ -1,0 +1,21 @@
+1. Default  => padding:10px 5px 15px 20px;
+	top padding is 10px
+	right padding is 5px
+	bottom padding is 15px
+	left padding is 20px
+
+
+2. padding:10px 5px 15px;
+	top padding is 10px
+	right and left padding are 5px
+	bottom padding is 15px
+
+3. padding:10px 5px;
+	top and bottom padding are 10px
+	right and left padding are 5px
+
+4. padding:10px;
+	top padding is 10px
+	right padding is 10px
+	bottom padding is 10px
+	left padding is 10px

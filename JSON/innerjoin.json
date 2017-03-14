@@ -1,0 +1,28 @@
+foreach($entities as $productList)
+        {
+            // $data[] = array
+            // (
+            //     'id'     => $productList ->getId(),
+            //     'nama'   => $productList ->getNama(),
+            //     'harga'  => $productList ->getDefaultPrice(),
+            //     'variant'=> array
+            //                 (
+            //                     array('size'=>'small','color'=>'blue','price'=>15000),
+            //                     array('size'=>'small','color'=>'red','price'=>17000)
+            //                 ),
+            // );
+
+            
+            $varianto=array();
+            foreach ($productList->getVariant() as $variant)
+            {
+                $varianto[]=array
+                (
+                    'variantprice' => $variant->getHarga(),
+                    'variantcolor' => $variant->getColor() ->getColor(),
+                    'variantsize' => $variant->getSize() ->getSize(),
+                );     
+            }
+
+            $data[] = array('id'=>$productList ->getId(),'nama'=> $productList->getNama(),'variants'=>$varianto);
+        }

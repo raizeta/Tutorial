@@ -1,0 +1,21 @@
+#Check Requiretments
+cordova requirements android
+
+############################
+
+
+
+npm install -g cordova
+
+cordova create HelloWorld com.zetacorp.helloworld HelloWorld
+
+cd MyApp
+
+
+#For SDK 21
+cordova platforms add android@3.7.1
+
+#For SDK 22
+cordova platforms add android@4.1.1
+
+cordova build android

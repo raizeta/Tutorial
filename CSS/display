@@ -1,0 +1,15 @@
+display : inline
+	Mendefinisikan eleman dalam baris yang sama dengan elemen yang lain.
+	Property height,width tidak akan memberikan efek pada jenis display ini.
+
+display : block
+ 	Sama halnya seperti membuat garis baru <br/> pada elemen.
+ 	Jika margin-top atau margin-bottom di definisikan maka gap yang akan diambil hanya satu saja yaitu margin yang memiliki nilai terbesar. Margin yang di definisikan akan tetap memberikan efek margin top pada element yang pertama, dan margin-bottom pada element yang terakhir.
+
+ 	Margin-right tidak memberikan efek pada type display ini.
+
+display : none
+	Menyembunyikan elemen dan spase yang dimiliki oleh element tersebut
+
+visibility : hidden
+	Hanya menyembunyikan element itu saja, space yang dimilikinya tidak akan hilang

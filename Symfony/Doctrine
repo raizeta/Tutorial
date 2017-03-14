@@ -1,0 +1,43 @@
+1. php app/console doctrine:mapping:import AppBlogBundle annotation --filter=Post 
+2. php app/console doctrine:generate:entities AppBlogBundle  #for All Entity In Blog Bundle
+3. php app/console doctrine:generate:entities AppBlogBundle/Entity/Post #ForSingleEntity -Post
+4. php app/console doctrine:mapping:convert --force yml ./src/
+
+$entity->setCreateAt(new \DateTime('now'));
+
+->add('createAt','date',array('format'=>'dd-MM-yyyy'))
+
+->add('jeniskelamin','choice',array('placeholder' => 'Choose an option','choices'=>array('male'=>'Male','female'=>'Female')))
+
+
+    public function __construct()
+    {
+        $this->setCreateAt(new \DateTime('now'));
+        $this->setUpdateAt(new \DateTime('now'));
+    }
+
+    http://localhost/sym/ecommerce/web/app_dev.php/oauth/v2/token?client_id=567hg161b688kws4sgc0kcogso0o4sscw4c0g88kow4gc0ccsw&client_secret=1qx7n36toli8ks0scc4ogg0k44o0o8c404wso084sgkk08ssog&grant_type=password&username=raizeta&password=pinguin135
+
+    openssl genrsa -out private.pem -aes256 4096
+
+    openssl rsa -pubout -in private.pem -out public.pem
+
+    curl -X POST http://localhost/sym/ecommerce/web/app_dev.php/api/login_check -d _username=raizeta -d _password=pinguin135
+
+
+C:\xampp\htdocs\sym\ecommerce>curl -X POST http://localhost/sym/ecommerce/web/app_dev.php/api/login_check -d _username=raizeta -d _password=pinguin135
+{"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOjE0NzM2ODIwODgsInVzZXJuYW1lIjoicmFpemV0YSIsImlhdCI6IjE0NzM1OTU2ODgifQ.fpOhE6sd0VAp3K7uewejUIFb2larE4PqlpP5YeUxvxtAL6ySAkYtng2FgedNf0GZm2fNvqDVT9ITwtAkQt4dtJ61h-IHPSX9cfEq0_cS1mpBV3D9D3US6CwkyTW8t8B2EQ_6gpJrlrVddv4sXiZU9dom04H
+bsU4i2x4hCyQ0HfGqPtqsK-8s8PzpCHJ-zybSLKDXlXuJw1cCwTX_hdNKdcIV8w45eNJhQ99P0Ojea4t2rgitRDNq3ZDmxdoOy082SLfsJeMmHdo7r9rZvXgE-gyXQUFLnHyh7XWwLiDG3YGoreD9efAfzqHBmSX0gTkpQtkfWX31epCt6pgFyQ8e2CYGkpmtJZjfzrlwPNnz05uR-kXrYoZR_RYY6FaAHyJI94OzLJ-JNINmOdaenPFuR0B5VQ4ML-5rNIUCCLGCCsTc5xs81tlo
+OUNNeQkWLZ2P99tnEJVpWKR77LHpVi2_sxNH0kHnkhaspfQyAKPGoWrSwsihXV--NzcBkSyfeWi8YdT4xGwISUF0GnWvXYUxpzLQUUMw6vWyX0G1rFTELyNkJxfZiTuVt_8-QxCkRDUZMrwNpdCBXYEyEGDYrvIp_-3IIQOZicwNuDWTlcvVpIbEonXtiO7HV6vx8bpl9a9cgH3zcT35MvHfn7FFNge3y9RsnTiK5KPH28R2Bw40Ubc"}
+C:\xampp\htdocs\sym\ecommerce>
+
+
+C:\xampp\htdocs\sym\ecommerce>curl -X POST http://localhost/sym/ecommerce/web/app_dev.php/api/login_check -d _username=raizeta -d _password=pinguin135
+{"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOjE0NzM2ODIwODgsInVzZXJuYW1lIjoicmFpemV0YSIsImlhdCI6IjE0NzM1OTU2ODgifQ.fpOhE6sd0VAp3K7uewejUIFb2larE4PqlpP5YeUxvxtAL6ySAkYtng2FgedNf0GZm2fNvqDVT9ITwtAkQt4dtJ61h-IHPSX9cfEq0_cS1mpBV3D9D3US6CwkyTW8t8B2EQ_6gpJrlrVddv4sXiZU9dom04H
+bsU4i2x4hCyQ0HfGqPtqsK-8s8PzpCHJ-zybSLKDXlXuJw1cCwTX_hdNKdcIV8w45eNJhQ99P0Ojea4t2rgitRDNq3ZDmxdoOy082SLfsJeMmHdo7r9rZvXgE-gyXQUFLnHyh7XWwLiDG3YGoreD9efAfzqHBmSX0gTkpQtkfWX31epCt6pgFyQ8e2CYGkpmtJZjfzrlwPNnz05uR-kXrYoZR_RYY6FaAHyJI94OzLJ-JNINmOdaenPFuR0B5VQ4ML-5rNIUCCLGCCsTc5xs81tlo
+OUNNeQkWLZ2P99tnEJVpWKR77LHpVi2_sxNH0kHnkhaspfQyAKPGoWrSwsihXV--NzcBkSyfeWi8YdT4xGwISUF0GnWvXYUxpzLQUUMw6vWyX0G1rFTELyNkJxfZiTuVt_8-QxCkRDUZMrwNpdCBXYEyEGDYrvIp_-3IIQOZicwNuDWTlcvVpIbEonXtiO7HV6vx8bpl9a9cgH3zcT35MvHfn7FFNge3y9RsnTiK5KPH28R2Bw40Ubc"}
+C:\xampp\htdocs\sym\ecommerce>curl -X POST http://localhost/sym/ecommerce/web/app_dev.php/api/login_check -d _username=raizeta -d _password=pinguin135
+{"token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXUyJ9.eyJleHAiOjE0NzM2ODI1MTcsInVzZXJuYW1lIjoicmFpemV0YSIsImlhdCI6IjE0NzM1OTYxMTcifQ.nD6ZKGt86d_4GcUnx_7y5pwxEDeisFLQb_y5wAHJSmXGXbAhyeF4BOWNmDq-kq7v5nVf_bjwOD76Ism_A9A0deiYQ0WLXtLM13n4CU2HbrDjd7hxVw9lsBl0A8lY49N8MjRnfUglPZ2ci3XsCx5OFukH50P
+-aebgNKrG8I6fGoIo5vCEB3lNiApZsk6bLmMf_0dMfQrVzN0c0wOmA81kH9Rer9jvc8X5DKP5r01uL1AOsiTZXXrXNL5U3Dc0sWuXTyo_Pg691zgjdrDexziyd1n-l6TK6iaV0TQpeQeMJB5a6FL3GgIEqWhmgPU6gdgnAgPwvkkpwOg4gYttCz7TIE8p-bZ8gaH7fCTr_6oSP0qIbAepSxPLZiQOwFgH7HjkF0dLCXzGGIeKEeXfwdWTVMlbzhpn9NlZc9wqFruFbVohruzukb9K
+RumECA-h6loVhXNhZgdn2exLL6danRQerTbAirIrUFFcSuyssnuqvCtLQinemlfAJlnAs18QCGVvJ_8l-ce_9UzklzpIVsHgyQ0yN3LFXz-lguqUFD6wuCPyj-zkjVPQQPFGDAidgat5gp7m3SfGIj7szwpeM2z6hilkXJNeZ-lsG3oCttnZXjqd3T44hDJvWhSCQVMFaUgb-V1KAoSU37BBNcH-lKmwCzvVvMr1qsUcJOL5adoQ7Pg"}
+C:\xampp\htdocs\sym\ecommerce>
