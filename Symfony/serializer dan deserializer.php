@@ -33,7 +33,7 @@ public function listproductAction()
     #Ini mengambil data dari database dan menjadikannya Object
     $entities = $em->getRepository('EntityBundle:Product')->findProductAll();
 
-    #Kode Dibawah Ini Dinamakan Normalize(Menjadi Object Menjadi Array)
+    #Kode Dibawah Ini Dinamakan Normalize(Dari Object Menjadi Array)
     // foreach($entities as $productList)
     // {
     //     $data[] = array(

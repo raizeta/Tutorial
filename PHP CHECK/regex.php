@@ -14,7 +14,7 @@
 	/^[1-9][0-9][A-Z]$/
 
 5.Panjang Maksimal String Tidak Terbatas,Tetapi Karakter Pertama Harus Karakter 1-9
-  Karakter Kedua 0-9,Dan Karakter Ketiga,Keempat,Kelima,Sampai Ke n Harus Huruf Kapital dari A-F  	
+  Karakter Kedua 0-9,Dan Karakter Ketiga,Keempat,Kelima,Sampai Ke n Harus Huruf Kapital dari A-Z  	
 	/^[1-9][0-9][A-Z]*$/
 
 6.Panjang Maksimal String Tidak Terbatas,Tetapi Karakter Pertama Harus Karakter 1-9
@@ -24,7 +24,7 @@
 
 6.Panjang Minimal String Harus 4 Karakter dan Panjang Maksimal String Tidak Terbatas.
   Tetapi Karakter Pertama Harus Karakter 1-9.
-  Tetapi Karakter Kedua Harus0-9.
+  Tetapi Karakter Kedua Harus 0-9.
   Dan Karakter Ketiga,Keempat,Kelima,Sampai Ke n-2 Harus Karakter 1-9.
   Tetapi Karakter Ke n-1 Harus Huruf Kapital dari A-F.
   Dan Karakter Terakhir Atau Karakter Ke n Harus Huruf Kapital Dari A-C.  	
