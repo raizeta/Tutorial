@@ -9,7 +9,7 @@ display : block
  	Margin-right tidak memberikan efek pada type display ini.
 
 display : none
-	Menyembunyikan elemen dan spase yang dimiliki oleh element tersebut
+	Menyembunyikan elemen dan spase(widht,height) yang dimiliki oleh element tersebut
 
 visibility : hidden
-	Hanya menyembunyikan element itu saja, space yang dimilikinya tidak akan hilang
+	Hanya menyembunyikan element itu saja, space(widht,height) yang dimilikinya tidak akan hilang

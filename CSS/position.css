@@ -1,0 +1,13 @@
+1. position:static
+	Merupakan posisi default sebuah element.
+	Penambahan property top,right,bottom,left tidak akan berpengaruh pada element ini.
+
+2. position:relative
+	Pada posisi ini kita bisa memanfaatkan property top dan left. Object akan berubah terhadap element utama,
+	dan juga relatif terhadap dirinya sendiri
+
+3. position:absolute
+	Dengan menerapkan posisi absolute,maka object akan mengikuti parent(induk element) dengan catatan
+	induk element harus menggunakan posisi relative.
+
+	Apabila parent idak memiliki position relative maka posisi absolute akan mengambil posisi dari layar.
