@@ -10,7 +10,7 @@
 	{{12000|number:2}}		=> 12,000.00
 - currency
 	{{1234.56|currency}}	=> $1,234.56
-- date
+
  #Jika Di Dalam Controller
  - uppercase
  	$filter('uppercase')('radumta'); 	=> RADUMTA

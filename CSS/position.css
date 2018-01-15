@@ -1,13 +1,25 @@
 1. position:static
 	Merupakan posisi default sebuah element.
 	Penambahan property top,right,bottom,left tidak akan berpengaruh pada element ini.
+	Default width:100vw;height:0vh;Dengan arti property height wajib di definisikan atau dinisialisasi;
+
+	Sebaiknya posisi static digunakan jika tidak memiliki child dengan posisi:absolute ataupun posisi:relative.
+	Karena posisi ini tidak memiliki sifat container(sifat yang dapat menampung posisi lainnya).
 
 2. position:relative
-	Pada posisi ini kita bisa memanfaatkan property top dan left. Object akan berubah terhadap element utama,
-	dan juga relatif terhadap dirinya sendiri
+	Pada posisi ini kita bisa memanfaatkan property top,right,bottom dan left. 
+	Object akan berubah terhadap element utama,dan juga relatif terhadap dirinya sendiri.
+	Default width:100vw;height:0vh;Dengan arti property height wajib di definisikan atau dinisialisasi;
 
 3. position:absolute
 	Dengan menerapkan posisi absolute,maka object akan mengikuti parent(induk element) dengan catatan
 	induk element harus menggunakan posisi relative.
 
 	Apabila parent idak memiliki position relative maka posisi absolute akan mengambil posisi dari layar.
+	Default width:0vw;height:0vh;Dengan arti property height wajib di definisikan atau dinisialisasi;
+
+4. position:fixed
+	Adalah posisi yang akan tetap diam ditempat,meskipun page atau halaman discroll ke bawah;
+
+Nb: element <body> secara default memiliki margin-top:8px;margin-left:8px;position:static;
+Nb: property top,right,bottom,left sangat berbeda dengan margin-top,margin-right,margin-bottom,margin-left.

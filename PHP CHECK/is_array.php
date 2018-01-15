@@ -1,5 +1,6 @@
 <?php
 use TestBundle\OOP\Customer;
+
 $customers = new Customer();
 $customers->setNama('Radumta');
 $customers->setEmail('radumta@gmail.com');
