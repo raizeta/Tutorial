@@ -12,7 +12,7 @@ console.log(x); //'value1'
 
 
 #Example Dua
-var values = Object.values(object);
+var values = Object.values(obj);
 console.log(values);
 #Result
 ['value1','value2','value3','value4']
