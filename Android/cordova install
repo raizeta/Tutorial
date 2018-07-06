@@ -19,3 +19,7 @@ cordova platforms add android@3.7.1
 cordova platforms add android@4.1.1
 
 cordova build android
+
+keytool –genkey –v -keystore RadumtaSitepu.keystore –alias RadumtaSitepu –keyalg RSA –keysize 2048 –validity 10000
+
+keytool -genkey -v -keystore RadumtaSitepu.keystore -alias RadumtaSitepu -keyalg RSA -keysize 2048 -validity 10000
