@@ -4,8 +4,11 @@
 3. Masuk ke Folder NamaProject Yang Baru Anda Buat Di Langkah No.2
 4. ng serve --open //Perintah Ini Digunakan Untuk Menjalankan Project Anda Di Browser
  
+<<<<<<< Updated upstream:Angular/Angular2/install.php
 
  ng generate module app-routing --flat --module=app
+=======
+>>>>>>> Stashed changes:Angular2/install.php
 
  Source:https://www.youtube.com/watch?v=oa9cnWTpqP8
  <input type="submit" value="{{buttontext}}"> //Hasilnya Sama
