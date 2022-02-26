@@ -7,11 +7,11 @@ function array_change_key_case_unicode($arr, $c = CASE_LOWER)
         $ret[mb_convert_case($k, $c, "UTF-8")] = $v;
     }
     return $ret;
-
-    $arr = array("FirSt" => 1, "yağ" => "Oil", "şekER" => "sugar");
-	print_r(array_change_key_case($arr, CASE_UPPER));
-	print_r(array_change_key_case_unicode($arr, CASE_UPPER));
 }
+
+$arr = array("FirSt" => 1, "yağ" => "Oil", "şekER" => "sugar");
+print_r(array_change_key_case($arr, CASE_UPPER));
+print_r(array_change_key_case_unicode($arr, CASE_UPPER));
 
 #print_r(array_change_key_case($arr, CASE_UPPER));
 Array
